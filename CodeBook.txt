@@ -1,5 +1,5 @@
 ---
-samsunDataTidy Code Book
+samsungDataTidy Code Book
 ---
 
 subject 2
