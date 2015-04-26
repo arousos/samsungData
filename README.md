@@ -11,7 +11,7 @@ The repository contains the following files:
 
 * README.md : A README file explaining the R script for obtaining the SamsungData from the original source, and tidying it inst a more-easily usable format.
 * run_analysis.r : The script for downloading and tidying the Samsung data files.
-* CodeBook : A code book describing the data.
+* CodeBook.txt : A code book describing the data.
 * SamsungData_Tidy.txt - An example of the tidied data file exported by *run_analysis.r*, in a narrow format.
 
 ## *run_analysis.r*
