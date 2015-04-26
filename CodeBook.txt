@@ -1,0 +1,102 @@
+---
+samsunDataTidy Code Book
+---
+
+subject 2
+  Unique identification number of data collection device (Samsung smartphone)
+    1..30
+
+activity text
+  Descriptive label of type of activity being performed during recorded observation
+    WALKING
+    WALKING_UPSTAIRS
+    WALKING_DOWNSTAIRS
+    SITTING
+    STANDING
+    LAYING
+    
+metric text
+  Type of measurement recorded in the observation
+  	tBodyAccelerometerMeanX
+	tBodyAccelerometerMeanY
+	tBodyAccelerometerMeanZ
+	tBodyAccelerometerStandardDeviationX
+	tBodyAccelerometerStandardDeviationY
+	tBodyAccelerometerStandardDeviationZ
+	tGravityAccelerometerMeanX
+	tGravityAccelerometerMeanY
+	tGravityAccelerometerMeanZ
+	tGravityAccelerometerStandardDeviationX
+	tGravityAccelerometerStandardDeviationY
+	tGravityAccelerometerStandardDeviationZ
+	tBodyAccelerometerJerkMeanX
+	tBodyAccelerometerJerkMeanY
+	tBodyAccelerometerJerkMeanZ
+	tBodyAccelerometerJerkStandardDeviationX
+	tBodyAccelerometerJerkStandardDeviationY
+	tBodyAccelerometerJerkStandardDeviationZ
+	tBodyGyroscopeMeanX
+	tBodyGyroscopeMeanY
+	tBodyGyroscopeMeanZ
+	tBodyGyroscopeStandardDeviationX
+	tBodyGyroscopeStandardDeviationY
+	tBodyGyroscopeStandardDeviationZ
+	tBodyGyroscopeJerkMeanX
+	tBodyGyroscopeJerkMeanY
+	tBodyGyroscopeJerkMeanZ
+	tBodyGyroscopeJerkStandardDeviationX
+	tBodyGyroscopeJerkStandardDeviationY
+	tBodyGyroscopeJerkStandardDeviationZ
+	tBodyAccelerometerMagnitudeMean
+	tBodyAccelerometerMagnitudeStandardDeviation
+	tGravityAccelerometerMagnitudeMean
+	tGravityAccelerometerMagnitudeStandardDeviation
+	tBodyAccelerometerJerkMagnitudeMean
+	tBodyAccelerometerJerkMagnitudeStandardDeviation
+	tBodyGyroscopeMagnitudeMean
+	tBodyGyroscopeMagnitudeStandardDeviation
+	tBodyGyroscopeJerkMagnitudeMean
+	tBodyGyroscopeJerkMagnitudeStandardDeviation
+	fBodyAccelerometerMeanX
+	fBodyAccelerometerMeanY
+	fBodyAccelerometerMeanZ
+	fBodyAccelerometerStandardDeviationX
+	fBodyAccelerometerStandardDeviationY
+	fBodyAccelerometerStandardDeviationZ
+	fBodyAccelerometerMeanFrequencyX
+	fBodyAccelerometerMeanFrequencyY
+	fBodyAccelerometerMeanFrequencyZ
+	fBodyAccelerometerJerkMeanX
+	fBodyAccelerometerJerkMeanY
+	fBodyAccelerometerJerkMeanZ
+	fBodyAccelerometerJerkStandardDeviationX
+	fBodyAccelerometerJerkStandardDeviationY
+	fBodyAccelerometerJerkStandardDeviationZ
+	fBodyAccelerometerJerkMeanFrequencyX
+	fBodyAccelerometerJerkMeanFrequencyY
+	fBodyAccelerometerJerkMeanFrequencyZ
+	fBodyGyroscopeMeanX
+	fBodyGyroscopeMeanY
+	fBodyGyroscopeMeanZ
+	fBodyGyroscopeStandardDeviationX
+	fBodyGyroscopeStandardDeviationY
+	fBodyGyroscopeStandardDeviationZ
+	fBodyGyroscopeMeanFrequencyX
+	fBodyGyroscopeMeanFrequencyY
+	fBodyGyroscopeMeanFrequencyZ
+	fBodyAccelerometerMagnitudeMean
+	fBodyAccelerometerMagnitudeStandardDeviation
+	fBodyAccelerometerMagnitudeMeanFrequency
+	fBodyBodyAccelerometerJerkMagnitudeMean
+	fBodyBodyAccelerometerJerkMagnitudeStandardDeviation
+	fBodyBodyAccelerometerJerkMagnitudeMeanFrequency
+	fBodyBodyGyroscopeMagnitudeMean
+	fBodyBodyGyroscopeMagnitudeStandardDeviation
+	fBodyBodyGyroscopeMagnitudeMeanFrequency
+	fBodyBodyGyroscopeJerkMagnitudeMean
+	fBodyBodyGyroscopeJerkMagnitudeStandardDeviation
+	fBodyBodyGyroscopeJerkMagnitudeMeanFrequency
+	
+metricValue varies
+  Mean of all observations taken for a given metric by one subject performing one activity
+    Decimal value
