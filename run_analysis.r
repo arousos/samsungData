@@ -1,6 +1,6 @@
 # Download and Extract the original data
-#zipURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-#download.file(zipURL, destfile = "UCI HAR Dataset.zip", mode="wb")
+zipURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+download.file(zipURL, destfile = "UCI HAR Dataset.zip", mode="wb")
 dataXtest <- read.table(unzip("UCI HAR Dataset.zip", "UCI HAR Dataset/test/X_test.txt"))
 dataYtest <- read.table(unzip("UCI HAR Dataset.zip", "UCI HAR Dataset/test/y_test.txt"))
 dataStest <- read.table(unzip("UCI HAR Dataset.zip", "UCI HAR Dataset/test/subject_test.txt"))
@@ -86,4 +86,4 @@ library(dplyr)
 tidyMelt <- arrange(tidyMelt, subject, activity)
 
 # Export the tidy data for use
-write.table(tidyMelt, file="samsungData_Tidy.txt", sep = " ", row.names=FALSE)
+write.table(tidyMelt, file="samsungDataTidy.txt", sep = " ", row.names=FALSE)
