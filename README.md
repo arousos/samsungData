@@ -1,7 +1,5 @@
----
-title: "README"
-output: html_document
----
+# "README"
+
 
 ## Introduction
 This document will explain the R script *run_analysis*, which you will find in this repository in the file *run_analysis.r*. It will also explain how the original dataset is used by *run_analysis* and the format of the exported tidy data file.
